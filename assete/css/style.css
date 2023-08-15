@@ -6,23 +6,41 @@
 
 
 }
+
 #top-banner{
     width: 100%;
     height: 500px;
     background-image: url('../img/developer-portfolio/top-banner.png');
     background-repeat: no-repeat;
+
 }
+h1{
+    font-size: 30px;
+}
+h3{
+    line-height: 25px;
+}
+
+.orange-highlight{
+    color: orange;
+}
+
 .div1{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding: 2%;
 }
+.div1 p{
+    line-height: 25px;
+    color: dimgray;
+}
+
 
 .div1 img{
-    width: 80%;
+    width: auto;
     height: 500px;
-    margin-left: 50px;
+    margin-left: -0px;
 }
 
 .div1 button{
@@ -34,14 +52,91 @@
     font-weight: bold;
 }
 
-
-
-
-
-
-
-h1{
-    font-size: 30px;
+.div1 button:hover{
+    background-color: coral;
+    color: aliceblue;
 }
+
+.link-button{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, tomato, orange);
+    padding: 2px 15px ;
+    border-radius: 10px;
+    color: aliceblue;
+
+}
+
+.link-button:hover{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-image: linear-gradient(45deg,rgb(249, 170, 24), rgb(255, 73, 41) );
+    padding: 2px 15px ;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+
+.dream-area{
+    width: 100%;
+    height: 600px;
+    background-image:url('../img/developer-portfolio/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+   
+
+}
+.expirence-area{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.div2a{
+    width: 30%;
+    height: 200px;
+    float: left;
+    position: absolute;
+    margin: 5%;
+    padding: 2%;
+    margin-left: 150px;
+    
+}
+.div2b{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin: 5%;
+    padding: 2%;
+    
+}
+
+.sigle-expirence{
+    box-shadow: 10px 10px 50px black;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato,yellow);
+    border-image-slice: 1;
+}
+.x{
+    color: tomato;
+}
+
+footer p{
+    text-align: center;
+    font-size: 10px;
+    margin-left: 0px;
+}
+
+
+
+
+
+
+
 
 
